@@ -52,6 +52,9 @@ jobs:
           NEXT_PUBLIC_API_BASE_URL: https://cricketapi-r9zv.onrender.com
           NEXT_PUBLIC_ENABLE_REAL_TIME: true
           NEXT_PUBLIC_ENABLE_NOTIFICATIONS: false
+          # Clerk Authentication - Required for build process
+          NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
 
   build-check:
     name: ✅ Build Status

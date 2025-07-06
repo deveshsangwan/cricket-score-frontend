@@ -136,10 +136,6 @@ Create a `.env.local` file in the root directory with the following variables:
 # Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_publishable_key_here
 CLERK_SECRET_KEY=sk_test_your_secret_key_here
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/matches
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/matches
 
 # API Configuration - Cricket Score API Backend
 # Use the deployed API or run locally: http://localhost:3001
