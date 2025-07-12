@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, /*useState,*/ useCallback, useRef, useMemo } from 'react';
+import React, { createContext, useContext, useCallback, useRef, useMemo } from 'react';
 import type { MatchStats } from '@/types/api';
 
 interface CachedMatchData {
